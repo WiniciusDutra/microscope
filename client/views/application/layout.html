@@ -1,7 +1,4 @@
-<head>
-  <title>Microscope</title>
-</head>
-<!-- <body>
+<template name="layout">
   <div class="container">
     <header class="navbar navbar-default">
       <div class="container-fluid">
@@ -20,8 +17,8 @@
        </ul>
       </div>
     </header>
-    <div id="main" class="row-fluid">
-      {{> postsList}}
-    </div>
+  <div id="main" class="row-fluid">
+    {{> yield}}
   </div>
-</body> -->
+  </div>
+</template>
