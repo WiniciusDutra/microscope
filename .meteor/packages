@@ -23,3 +23,5 @@ bootswatch:flatly
 iron:router
 sacha:spin
 session
+accounts-password
+accounts-ui
